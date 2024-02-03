@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "run java",
+          "type": "shell",
+          "command": "/usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/saint/code/Saint1xD/javalearning/Aula\\ 1.1/bin App",
+          "presentation": {
+              "reveal": "silent"
+          },
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          }
+      }
+  ]
+}
